@@ -113,7 +113,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_TurretMilitary</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>28</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
@@ -167,7 +167,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_GunComplex</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>32</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
@@ -222,7 +222,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_VulcanCannon</projectileDef>
-        <warmupTicks>320</warmupTicks>
+        <warmupTime>5.33</warmupTime>
         <range>36.0</range>
         <minRange>6</minRange>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -277,7 +277,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_TurretShredder</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>20</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
@@ -334,7 +334,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_ComplexRocket</projectileDef>
         <forcedMissRadius>2</forcedMissRadius>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>55</range>
         <minRange>3</minRange>
         <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
@@ -403,7 +403,7 @@
         <projectileDef>Bullet_DevastatorBomb</projectileDef>
         <forcedMissRadius>8</forcedMissRadius>
         <ai_IsIncendiary>true</ai_IsIncendiary>
-        <warmupTicks>500</warmupTicks>
+        <warmupTime>8.33</warmupTime>
         <minRange>20</minRange>
         <range>500</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -459,7 +459,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_TurretPrecision</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>50</range>
         <soundCast>ShotChargeBlaster</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>

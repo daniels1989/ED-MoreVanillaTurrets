@@ -10,17 +10,34 @@
     <prerequisites>
       <li>GunTurrets</li>
     </prerequisites>
+	<researchViewX>9</researchViewX>
+	<researchViewY>5.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>ShredderTurret</defName>
-    <label>shredder and precision turrets</label>
-    <description>Allows you to build deadly close range guns called shredders, along with more small and fragile long range precision turrets.</description>
-    <baseCost>3600</baseCost>
+    <label>shredder turrets</label>
+    <description>Allows you to build deadly close range guns called shredder turrets.</description>
+    <baseCost>1800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>MilitaryTurret</li>
     </prerequisites>
+	<researchViewX>10</researchViewX>
+	<researchViewY>5.5</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PrecisionTurret</defName>
+    <label>precision turrets</label>
+    <description>Allows you to build long range precision turrets.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MilitaryTurret</li>
+    </prerequisites>
+	<researchViewX>10</researchViewX>
+	<researchViewY>5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -32,6 +49,8 @@
     <prerequisites>
       <li>ShredderTurret</li>
     </prerequisites>
+	<researchViewX>11</researchViewX>
+	<researchViewY>5.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -44,6 +63,8 @@
       <li>Mortars</li>
       <li>VulcanCannon</li>
     </prerequisites>
+	<researchViewX>12</researchViewX>
+	<researchViewY>5</researchViewY>
   </ResearchProjectDef>
 
 </ResearchProjectDefs>

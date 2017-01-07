@@ -31,7 +31,7 @@
     <statBases>
       <MaxHitPoints>225</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToBuild>3000</WorkToBuild>
       <Beauty>-40</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -67,7 +67,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_GunComplex</turretGunDef>
-      <turretBurstCooldownTicks>18</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>0.3</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/GunComplexGun</turretTopgraphicPath>
     </building>
     <staticSunShadowHeight>0.40</staticSunShadowHeight>
@@ -91,7 +91,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToBuild>3000</WorkToBuild>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -128,7 +128,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_TurretMilitary</turretGunDef>
-      <turretBurstCooldownTicks>440</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>7.33</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/MilitaryTurretGun</turretTopgraphicPath>
     </building>
     <researchPrerequisites>
@@ -151,7 +151,7 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToBuild>3000</WorkToBuild>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -187,7 +187,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_TurretPrecision</turretGunDef>
-      <turretBurstCooldownTicks>300</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>5</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/PrecisionTurretGun</turretTopgraphicPath>
     </building>
     <researchPrerequisites>
@@ -210,7 +210,7 @@
     <statBases>
       <MaxHitPoints>240</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>3500</WorkToMake>
+      <WorkToBuild>3500</WorkToBuild>
       <Beauty>-70</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -246,7 +246,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_TurretShredder</turretGunDef>
-      <turretBurstCooldownTicks>320</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>5.33</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/ShredderTurretGun</turretTopgraphicPath>
     </building>
     <researchPrerequisites>
@@ -270,7 +270,7 @@
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToBuild>8000</WorkToBuild>
       <Beauty>-90</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -306,7 +306,7 @@ Its high placement allows it for a much longer range, but unfortunately due to t
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_VulcanCannon</turretGunDef>
-      <turretBurstCooldownTicks>6</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/VulcanCannonGun</turretTopgraphicPath>
     </building>
     <rotatable>true</rotatable>
@@ -336,7 +336,7 @@ Its high placement allows it for a much longer range, but unfortunately due to t
     <statBases>
       <MaxHitPoints>225</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToBuild>3000</WorkToBuild>
       <Beauty>-40</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -372,8 +372,8 @@ Its high placement allows it for a much longer range, but unfortunately due to t
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_RocketComplex</turretGunDef>
-      <turretShellDef>ArtilleryShell</turretShellDef>
-      <turretBurstCooldownTicks>500</turretBurstCooldownTicks>
+      <turretShellDef>MortarShell</turretShellDef>
+      <turretBurstCooldownTime>8.33</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/RocketComplexGun</turretTopgraphicPath>
     </building>
     <staticSunShadowHeight>0.40</staticSunShadowHeight>
@@ -399,7 +399,7 @@ Its high placement allows it for a much longer range, but unfortunately due to t
     <statBases>
       <MaxHitPoints>360</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToBuild>8000</WorkToBuild>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -439,9 +439,9 @@ Watch out for a huge explosion when destroyed.</description>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Artillery_DevastatorBomb</turretGunDef>
-      <turretShellDef>ArtilleryShell</turretShellDef>
-      <turretBurstWarmupTicks>200</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>5000</turretBurstCooldownTicks>
+      <turretShellDef>MortarShell</turretShellDef>
+      <turretBurstwarmupTime>3.33</turretBurstwarmupTime>
+      <turretBurstCooldownTime>83.33</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/DevastatorGun</turretTopgraphicPath>
       <buildingTags>
         <li>Artillery</li>

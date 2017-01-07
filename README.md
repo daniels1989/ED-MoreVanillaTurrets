@@ -17,3 +17,8 @@ This is based on "More Vanilla Turrets" by Marnador https://ludeon.com/forums/in
 *All turrets are movable to reflect change to vanilla turrets in alpha 14
 *Research now depends on vanilla GunTurrets research
 *Thanks to retep998
+
+02.00.02
+*Alpha 16 Update
+*Shredder and Precision turret research split into two research nodes, each half the original cost
+*Thanks to KingPin
